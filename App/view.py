@@ -81,6 +81,7 @@ while True:
 
     # TODO: Modificaciones para el laboratorio 1.
     elif int(inputs[0]) == 3:
+        bookstags = None
         print("Cargando identificadores de libros y tags....")
         print('Total de identificadores de libros y tags cargados: ' + str(lt.size(bookstags)))
 
